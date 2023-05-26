@@ -1,0 +1,15 @@
+.a {
+  font-family: 'sans-serif';
+  margin: 37px;
+  
+}
+
+/* logo */
+.logo {
+  background-image: url("css_advanced/images/logo.png");
+  position: absolute;
+  width: 169px;
+  height: 29.46px;
+  left: 171.59px;
+  top: 35.02px;
+}
