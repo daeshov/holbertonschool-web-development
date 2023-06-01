@@ -1,15 +1,417 @@
-.a {
-  font-family: 'sans-serif';
-  margin: 37px;
-  
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: (Source Sans Pro), sans-serif;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background {
+  /*smiling girl*/
+  position: absolute;
+  background-image: url("images/background.png");
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+}
+.background {
+  position: absolute;
+  width: 1440px;
+  height: 1093px;
+  left: 0px;
+  top: 0px;
+}
+
+.header {
+  /*smileschool*/
+  position: absolute;
+  width: 111.83px;
+  height: 12.58px;
+  left: 226.77px;
+  top: 41.54px;
+
 }
 
 /* logo */
 .logo {
-  background-image: url("css_advanced/images/logo.png");
+  background-image: url("../css_advanced/images/logo.png");
   position: absolute;
-  width: 169px;
-  height: 29.46px;
-  left: 171.59px;
-  top: 35.02px;
+  width: 0.81rem;
+  height: 0.94rem;
+  left: 14.19rem;
+  top: 2.63rem;
+} 
+
+.courses {
+  position: absolute;
+  height: 15px;
+  left: 0%;
+  right: 78.63%;
+  top: calc(50% - 15px/2);
+
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFF;
+}
+
+
+.mainh1 h1 {
+  position: absolute;
+  height: 151px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 26%;
+  right: 26%;
+  top: calc(50% - 151px/2 - 251px);
+
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 151px;
+
+  text-align: center;
+
+  color: #FFF;
+ }
+
+ .main {
+  position: absolute;
+  width: 1440px;
+  height: 1093px;
+  left: 0px;
+  top: 0px;
+}
+
+ .submain {
+  /* smile, grin, laugh */
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  left: 39%;
+  right: 26%;
+  width: 25%;
+  top: 45%; /* Adjust this value to move the elements lower down on the page */
+  height: 20px;
+  font-family: (Source Sans Pro);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.smile,
+.grin,
+.laugh {
+    height: 20px;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.mainbutton {
+  
+  position: absolute;
+  left: 44.38%;
+  right: 44.38%;
+  top: 50%;
+  bottom: 70;
+
+  background: #C271FF;
+  border-radius: 22px;
+  filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
+}
+
+.mainbutton a {
+  /* REGISTER FOR FREE */
+
+  height: 18px;
+  left: 12.35%;
+  right: 12.96%;
+  top: 18%;
+
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+/* identical to box height */
+
+  text-align: center;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+#backbutton {
+  position: absolute;
+  font-family: 'Source Sans Pro';
+  width: 200px;
+  height: 50px;
+  left: 44.38%;
+  right: 44.38%;
+  top: 38.33%;
+  bottom: 57.64%;
+
+  filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5)); 
+}
+
+
+
+.pros h2 {
+  /* Learn from the pros */
+  position: absolute;
+  width: 261px;
+  height: 40px;
+  left: calc(50% - 261px/2 + 14.5px);
+  top: calc(50% - 40px/2 + 104.5px);
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.learn {
+  color: #C271FF;
+}
+
+.procontainer {
+  position: absolute;
+  width: 1009px;
+  height: 237px;
+  left: 217px;
+  top: 630px;
+}
+
+#pro1 {
+  position: absolute;
+left: 15.07%;
+right: 74.51%;
+top: 69.35%;
+bottom: 8.97%;
+color: #FFFFFF;
+}
+
+#pro2 {
+  position: absolute;
+left: 35.14%;
+right: 54.44%;
+top: 69.35%;
+bottom: 8.97%;
+color: #FFFFFF;
+}
+
+#pro3 {
+  position: absolute;
+left: 54.65%;
+right: 34.93%;
+top: 69.35%;
+bottom: 8.97%;
+color: #FFFFFF;
+}
+
+#pro4 {
+  position: absolute;
+left: 74.72%;
+right: 14.86%;
+top: 69.35%;
+bottom: 8.97%;
+color: #FFFFFF;
+}
+
+#testimonials {
+  position: absolute;
+width: 1440px;
+height: 392px;
+left: -1px;
+top: 1093px;
+}
+
+.quote-section {
+  position: absolute;
+height: 40px;
+left: 588px;
+right: 558px;
+top: 1572px;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 300;
+font-size: 32px;
+line-height: 40px;
+text-align: center;
+
+}
+
+.pop {
+  /* Popular */
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 43px;
+  line-height: 40px;
+  color: #C271FF;
+  text-align: center;
+}
+ 
+#videos {
+  position: absolute;
+width: 1228px;
+height: 450px;
+left: -516px;
+top: 200px;
+}
+
+.membership {
+  position: absolute;
+width: 1440px;
+height: 502px;
+left: 0px;
+top: 2109px;
+
+}
+
+.headmem {
+  position: absolute;
+height: 40px;
+left: 42.85%;
+right: 40.9%;
+top: calc(50% - 40px/2 - 161px);
+}
+
+.dot_1 {
+  position: absolute;
+left: 11.39%;
+right: 70.76%;
+top: 33.47%;
+bottom: 36.06%;
+}
+
+.dot_2 {
+ /* dot_2 */
+
+position: absolute;
+left: 31.11%;
+right: 51.04%;
+top: 33.47%;
+bottom: 36.06%;
+
+}
+
+.dot_3 {
+  /* dot_3 */
+
+position: absolute;
+left: 50.9%;
+right: 31.25%;
+top: 33.47%;
+bottom: 36.06%;
+}
+
+.dot_4 {
+ /* dot_4 */
+
+position: absolute;
+left: 70.76%;
+right: 11.39%;
+top: 33.47%;
+bottom: 36.06%;
+}
+
+.membutton {
+  /* button */
+  position: absolute;
+  left: 44.38%;
+  right: 44.38%;
+  top: 80.88%;
+  bottom: 10.36%;
+  border-radius: 22px;
+  background: #071629;
+  text-align: center;
+}
+
+.FAQ {
+  /* F.A.Q. */
+
+  position: absolute;
+  width: 920px;
+  height: 707px;
+  left: 249px;
+  top: 2678px;
+}
+
+.FAQ h1 {
+  position: absolute;
+height: 75px;
+left: 44.24%;
+right: 40.98%;
+top: calc(50% - 75px/2 - 316px);
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 300;
+font-size: 60px;
+line-height: 75px;
+text-align: center;
+
+color: #071629;
+
+}
+
+.Q_1 {
+  position: absolute;
+left: 0%;
+right: 61.96%;
+top: 21.07%;
+bottom: 44.7%;
+}
+
+.Q_2 {
+  position: absolute;
+left: 61.96%;
+right: 0%;
+top: 21.07%;
+bottom: 44.7%;
+}
+
+.Q_3 {
+  position: absolute;
+left: 0%;
+right: 61.96%;
+top: 65.77%;
+bottom: 0%;
+}
+
+.Q_4 {
+  position: absolute;
+left: 61.96%;
+right: 0%;
+top: 65.77%;
+bottom: 0%;
+}
+
+.footer {
+  position: absolute;
+width: 1440px;
+height: 249px;
+left: 0px;
+top: 3469px;
+
 }
